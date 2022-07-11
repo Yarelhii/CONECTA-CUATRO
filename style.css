@@ -1,0 +1,91 @@
+h3{
+	color: black;
+	font-family: lobster;
+	font-size: 2em;
+	font-weight: lighter;
+	text-shadow: 3px 3px 2px rgb(36, 5, 54);
+    text-align: center;
+ }
+ h2{
+	color: black;
+	font-family: lobster;
+	font-size: 2em;
+	font-weight: lighter;
+	text-shadow: 3px 3px 2px rgb(16, 109, 106);
+    text-align: right;
+ }
+ h1{
+	color: black;
+	font-family: lobster;
+	font-size: 2em;
+	font-weight: lighter;
+	text-shadow: 3px 3px 2px rgb(20, 112, 109);
+    text-align: left;
+ }
+.conteiner{
+    margin-top: 150px;
+    display: grid;
+    grid-template-areas: "left main right";
+}
+.jugador1{
+    display: inline-block;
+    text-align: center;
+    background-color: aquamarine;
+    grid-area: left;
+    width: 200px;
+}
+.jugador2{
+    display: inline-block;
+    text-align: center;
+    background-color: magenta;
+    grid-area: right;
+    width: 200px;
+}
+.current-1{
+    width: 200px;
+    background: black;
+}
+
+.current-2{
+    width: 200px;
+    background: black;
+}
+.grid {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: 270px;
+    width: 294px;
+    
+  }
+.grid div {
+    height: 40px;
+    width: 40px;
+    border-radius: 25px;
+    border: 1px solid rgb(12, 12, 12);
+}
+.grid.taken {
+    border: 1px solid rgb(8, 8, 8);
+
+}
+.jugador uno{
+    background-color: aquamarine;
+    border-radius: 20px;
+}
+.jugador dos{
+    background-color: magenta;
+    border-radius: 20px;
+}
+input{
+    display: block;
+    margin: 50px auto;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(10, 10, 10);
+    
+}
+
+.tittle{
+    text-align: center;
+    margin-top: 70px;
+}
